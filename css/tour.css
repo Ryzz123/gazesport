@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+/* reset html */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  /* border: 0; */
+  /* outline: 0; */
+}
+
+body {
+  min-height: 100px;
+  max-width: 100%;
+  font-family: 'Poppins';
+  background: #5f2aaa;
+  background: -webkit-linear-gradient(to right, #110025, #110025);
+  background: linear-gradient(to right, #110025, #110025); 
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* area navbar */
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    gap: 60px;
+    font-style: normal;
+    line-height: 27px;
+  }
+  
+  .navbar-brand {
+    color: #fff !important; 
+  }
+  
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 3px;
+    margin-bottom: -5px;
+  }
+
+
+/* Card Tournament */
+.gaz-tournament .fanny {
+    color: #fff;
+    font-style: none;
+    font-size: 13px;
+    background-color: none !important;
+    position: relative;
+    margin-left: -60px;
+    margin-top: 2rem;
+}
+
+
+.gaz-tournament .fanny p {
+    margin-bottom: 2rem !important;
+    line-height: 40px;
+    margin-top: 2rem;
+    font-size: 17px;
+    font-weight: 400;
+}
+.gaz-tournament .fanny h5 {
+    margin-top: 2rem;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.gaz-tournament .fanny-img img {
+    margin-top: 3rem !important;
+    margin-left: -15px;
+}
+
+
+.gaz-tournament .card {
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.gaz-tournament .fanny a {
+    background-color: #fff;
+    color: #6214A8 !important;
+    text-decoration: none;
+    padding: 15px 20px 15px 40px;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size:15px;
+    width: 65px;
+    line-height: 24px;
+    position: relative;
+}
+
+.gaz-tournament .fanny a:hover {
+    text-shadow: 0px 0px 1px #6214A8;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 1);
+  transition: all 0.4s ease 0s;
+}
+
+.gaz-tournament .fanny a span {
+    margin-right: 20px;
+}
+
+
+.card {
+    border: rgba(52, 16, 94, 1) !important;
+    background-color: rgba(52, 16, 94, 1) !important;
+    position: relative;
+}
+
+.gaz-tournament .row {
+    background-color: rgba(52, 16, 94, 1);
+    height: auto;
+    justify-content: center;
+    position: relative;
+    z-index: 2 !important;
+}
+
+
+.row {
+    border-radius: 25px 25px 0px 0px;
+    top: -1rem;
+}
+
+/* GAZ Acicrew */
+.gaz-tournament .martis {
+    color: #fff;
+    font-style: none;
+    font-size: 13px;
+    background-color: none !important;
+    position: relative;
+    margin-left: -60px;
+    margin-top: 2rem;
+    z-index: 4;
+}
+.gaz-tournament .martis p {
+    margin-bottom: 2rem !important;
+    line-height: 40px;
+    margin-top: 2rem;
+    font-size: 17px;
+    font-weight: 400;
+}
+.gaz-tournament .martis h5 {
+    margin-top: 3rem;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 26px;
+    position: relative;
+    z-index: 999 !important;
+}
+
+
+.gaz-tournament .martis-img img {
+    margin-top: 5rem !important;
+    margin-left: -15px;
+}
+
+
+.gaz-tournament .card {
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.gaz-tournament .martis a {
+    background-color: #fff;
+    color: #6214A8 !important;
+    text-decoration: none;
+    padding: 15px 20px 15px 40px;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size:15px;
+    width: 65px;
+    line-height: 24px;
+    position: relative;
+}
+
+.gaz-tournament .martis a:hover {
+    text-shadow: 0px 0px 1px #6214A8;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 1);
+  transition: all 0.4s ease 0s;
+}
+
+.gaz-tournament .martis a span {
+    margin-right: 20px;
+}
+
+
+.card-martis {
+    border: rgba(52, 16, 94, 1) !important;
+    background-color: #5F2AAA !important;
+    position: relative;
+}
+
+.gaz-tournament .row-martis {
+    background-color: #5F2AAA;
+    height: 560px;
+    justify-content: center;
+    position: relative;
+}
+
+
+.row-martis {
+    border-radius: 25px 25px 0px 0px;
+    top: -8.6rem;z-index: 1;
+}
+
+.row-martis::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background: rgb(95,42,170);
+background: linear-gradient(180deg, rgba(95,42,170,0) 5%, rgba(95,42,170,0) 49%, rgba(1,1,1,1) 85%);
+}
+
+
+
+
+
+/* Footer */
+.foto img {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.logo-gaz {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 2rem ;
+}
+
+.logo-gaz img {
+    width: 50px;
+    margin-right: 0.5rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logo-gaz h2 {
+    padding-top: 0.4rem;
+    width: 98px;
+height: 41px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 40px;
+letter-spacing: 0.01rem;
+color: #FFFFFF;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.footer {
+    justify-content: center;
+    margin-top: -9rem;
+  align-items: center;
+  text-align: center;
+    width: 100%;
+    background: linear-gradient(89.71deg, rgba(110, 47, 165, 0.5) 1.95%, rgba(59, 41, 153, 0.5) 99.75%);
+
+}
+.background-footer{
+width: 100%;
+  background: rgb(49,1,92);
+  background: linear-gradient(101deg, rgba(49,1,92,1) 5%, rgba(49,1,92,1) 56%, rgba(1,1,1,1) 90%);
+  border-top-left-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+
+
+}
+.follow h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38.31px;
+    letter-spacing: 10px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.footer .social  {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #2F0743;
+    display: flex;
+    justify-content: center;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.social-icon {
+    height: 24px;
+    width: 24px;
+    /* border: 1px solid #222; */
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #2F0743;
+    background-color: #fff;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: 0.3rem;
+}
+
+.social-icon:hover {
+    color: #222;
+    background-color: pink;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 2rem;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 24px;
+    margin-top: 3rem;
+    margin-bottom: -2px;
+}
+
+@media (max-width: 767px) {
+
+    .navbar-brand, .nav-link {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+      .navbar-brand, .nav-link {
+        color: white !important;
+        font-family: 'Poppins';
+        font-size: 13px;
+        font-weight: 500;
+        gap: 60px;
+        font-style: normal;
+        line-height: 27px;
+      }
+    
+      .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 0px solid #fff;
+        width: 30%;
+        margin: auto;
+        padding-bottom: 3px;
+        margin-bottom: -3px;
+      }
+
+    .gaz-tournament .fanny {
+        margin-top: -2rem;
+        max-width: 100%;
+        margin-left: 20px;
+        margin-bottom: 2rem;
+    }
+
+    .gaz-tournament .fanny-img img {
+        display: none;
+    }
+
+    .gaz-tournament .martis {
+        margin-left: 20px;
+        margin-top: -3rem;
+    }
+
+    .gaz-tournament .martis-img img{
+        display: none;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+}
+
+

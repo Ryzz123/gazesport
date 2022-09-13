@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+/* reset html */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  /* border: 0; */
+  /* outline: 0; */
+}
+
+
+body {
+  min-height: 100vw;
+  max-width: 100%;
+  font-family: 'Poppins';
+  background: #5f2aaa;
+background: -webkit-linear-gradient(to right, #110025, #110025);
+background: linear-gradient(to right, #110025, #110025); 
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+li, a, h3, button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+h3 {
+    margin-left: -250px;
+    margin-right: -100px;
+}
+
+
+/* area navbar */
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    gap: 60px;
+    font-style: normal;
+    line-height: 27px;
+  }
+  
+  .navbar-brand {
+    color: #fff !important; 
+  }
+  
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 3px;
+    margin-bottom: -5px;
+  }
+
+.gaz-banner .baner {
+    max-width: 100%;
+}
+
+
+
+
+/* area titel */
+
+.titel {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    width: 500px!important;
+    text-align: center;
+    justify-content: start;
+}
+
+.titel a:hover {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+
+.titel  a {
+    color: #fff;
+    text-decoration: none;
+    align-items: flex-start;
+    justify-content: start;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-left: -30px;
+}
+
+.titel a::after {
+    display: block;
+    content: "";
+    width: 0;
+    margin: auto;
+    height: 2px;
+    background-color: #5f2aaa;
+    transition: all 0.3s ease-in-out;
+}
+
+.titel a:hover::after {
+    width: 50%;
+}
+
+/* area frame */
+.fram .season1 img{
+    border: #5f2aaa solid 2rem;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #5f2aaa;
+}
+.fram .season2 img{
+    border: #5f2aaa solid 2rem;
+    background-color: #5f2aaa;
+}
+.fram .season3 img{
+    border: #5f2aaa solid 2rem;
+    background-color: #5f2aaa;
+}
+.fram .season4 img{
+    border: #5f2aaa solid 2rem ;
+    background-color: #5f2aaa;
+}
+.fram .season5 img{
+    border: #5f2aaa solid 2rem;
+    border-radius: 0px 0px 15px 15px ;
+    background-color: #5f2aaa;
+}
+
+.fram {
+    margin-bottom: 10rem;
+}
+
+
+/* footer */
+.footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(89.71deg, rgba(110, 47, 165, 0.5) 1.95%, rgba(59, 41, 153, 0.5) 99.75%);
+
+}
+.background-footer{
+    width: 100%;
+    background: rgb(49,1,92);
+    background: linear-gradient(101deg, rgba(49,1,92,1) 5%, rgba(49,1,92,1) 56%, rgba(1,1,1,1) 90%);
+    border-top-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+}
+
+
+.logo-gaz {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 2rem ;
+}
+
+.logo-gaz img {
+    width: 50px;
+    margin-right: 0.5rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logo-gaz h2 {
+    padding-top: 0.4rem;
+    width: 98px;
+    height: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 40px;
+    letter-spacing: 0.01rem;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.follow h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38.31px;
+    letter-spacing: 10px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.footer .social  {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #2F0743;
+    display: flex;
+    justify-content: center;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.social-icon {
+    height: 24px;
+    width: 24px;
+    /* border: 1px solid #222; */
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #2F0743;
+    background-color: #fff;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: 0.3rem;
+}
+
+.social-icon:hover {
+    color: #222;
+    background-color: pink;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 2rem;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 24px;
+    margin-top: 3rem;
+    margin-bottom: -5px;
+}
+
+@media  (max-width: 767px) {
+    .navbar-brand, .nav-link {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+      font-family: 'Poppins';
+      font-size: 13px;
+      font-weight: 500;
+      gap: 60px;
+      font-style: normal;
+      line-height: 27px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 0px solid #fff;
+        width: 30%;
+        margin: auto;
+        padding-bottom: 3px;
+        margin-bottom: -3px;
+      }
+
+    .baner {
+        margin-bottom: -2rem;
+    }
+
+    
+    .titel a {
+        max-width: 100%;
+        margin-left: 1.5rem;
+        text-align: center ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer p {
+        font-size: 10px;
+      }
+
+}
