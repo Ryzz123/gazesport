@@ -3,65 +3,7 @@
 
 /* reset html */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-div pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-font,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-figure,
-header,
-nav,
-section,
-article,
-aside,
-footer,
-figcaption,
-input {
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,div pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,centr,dl,dt,dd,ol,ul,li,figure,header,nav,section,article,aside,footer,figcaption,input {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -444,29 +386,93 @@ width: 100%;
         margin-bottom: -3px;
       }
 
+      .gaz-tournament .fanny h5 {
+        font-size: 20px;
+        margin-top: -3rem;
+      }
+
+      .gaz-tournament .row {
+        margin-top: 5px !important;
+        border-radius: 12px;
+        
+      }
+
     .gaz-tournament .fanny {
-        margin-top: -2rem;
+        margin-top: 2rem !important;
+        position: relative;
         max-width: 100%;
         margin-left: 20px;
         margin-bottom: 2rem;
+        height: 300px;
     }
+
 
     .gaz-tournament .fanny-img img {
         display: none;
     }
 
+    .gaz-tournament .card p {
+        width: 100%;
+        font-size: 10px;
+        margin-top: -0.5rem;
+        line-height: 2rem;
+        margin-bottom: -0.1rem !important;
+    }
+
+    .gaz-tournament .row-fanny .card-fanny {
+        /* height: 50px; */
+        /* margin-top: -5rem !important; */
+        /* display: none; */
+        position: relative;
+    }
+
+    .gaz-tournament .card-body a {
+        font-size: 10px;
+        margin: auto;
+        align-items: center;
+        padding: 5px 5px 5px 5px !important;
+    }
+    .gaz-tournament .card-body img {
+        width: 14px;
+        align-items: center;
+        justify-content: center !important;
+        padding-left: -50px;
+        margin-top: -1px !important;
+        margin-left: -10px !important;
+    }
+
+    .gaz-tournament .row-martis {
+        margin-top: -17rem !important;
+        height: 300px;
+    }
+
+    .gaz-tournament .martis-img{
+        display: none;
+    }    
+
     .gaz-tournament .martis {
         margin-left: 20px;
-        margin-top: -3rem;
+        margin-top: -2rem;
+        height: 50px;
+    }
+    .gaz-tournament .martis h5 {
+        font-size: 20px;
+        margin-top: -0.04rem;
     }
 
     .gaz-tournament .martis-img img{
         display: none;
     }
 
+    .card-martis {
+        height: 300px;
+    }
+
     .footer p {
         font-size: 10px;
     }
+
+
 }
 
 

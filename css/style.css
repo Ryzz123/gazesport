@@ -2,64 +2,7 @@
 
 /* reset html */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-div pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-font,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-figure,
-header,
-section,
-article,
-aside,
-footer,
-figcaption,
-input {
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,div pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,centr,dl,dt,dd,ol,ul,li,figure,header,nav,section,article,aside,footer,figcaption,input {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -585,8 +528,12 @@ border: #6214A8 solid;
   }
 
   .gaz-event .row {
-    padding: 3rem;
+    padding: 2rem;
     margin-top: -15rem;
+  }
+
+  .gaz-event .card-body p {
+    display: none;
   }
 
   .gaz-event .row h2 {
@@ -607,6 +554,22 @@ border: #6214A8 solid;
 
   .footer-gaz span {
     font-size: 10px;
+  }
+
+  .tournament .card {
+    height: 130px;
+    margin: 5px;
+  }
+
+  .tournament .hover {
+    margin-bottom: -5rem;
+  }
+
+  .tournament h5 {
+    position: relative;
+    font-size: 17px;
+    margin-top: -5rem;
+    margin-bottom: -0.3rem;
   }
   
 }
@@ -634,12 +597,12 @@ border: #6214A8 solid;
     cursor: pointer;
   }
   .gaz-event .container-fluid .card-gaz {
-    /* right: 0 !important; */
-    /* left: 1rem; */
     justify-content: center;
     text-align: center;
     align-items: center;
   }
+
+
   
 }
 
