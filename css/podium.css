@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+/* reset html */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,div pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,centr,dl,dt,dd,ol,ul,li,figure,header,nav,section,article,aside,footer,figcaption,input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background: #5f2aaa;
+  background: -webkit-linear-gradient(to right, #110025, #110025);
+  background: linear-gradient(to right, #110025, #110025);
+}
+
+/* area navbar */
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    gap: 60px;
+    font-style: normal;
+    line-height: 27px;
+  }
+  
+  .navbar-brand {
+    color: #fff !important; 
+  }
+  
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 3px;
+    margin-bottom: -5px;
+  }
+
+
+  .titel h2 {
+    font-family: 'Poppins';
+    font-weight: 900;
+    margin-bottom: 4rem;
+    font-size: 36px;
+    letter-spacing: -2%;
+    color: #fff;
+    text-shadow: 0px 8.59007px 8.59007px rgba(0, 0, 0, 0.86);
+  }
+
+  .jumbotron img {
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+  }
+
+  /* area footer */
+.footer-gaz {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    width: 100%;
+    background: linear-gradient(89.71deg, rgba(98, 20, 168, 0.5) 1.95%, rgba(59, 41, 153, 0.5) 99.75%);
+  }
+  
+  .footer-background-gaz {
+    width: 100%;
+    background: rgb(49, 1, 92);
+    background: linear-gradient(101deg, rgba(49, 1, 92, 1) 5%, rgba(49, 1, 92, 1) 56%, rgba(1, 1, 1, 1) 90%);
+    border-top-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+  }
+  
+  .gambar-footer-gaz {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-right: 1em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .gambar-footer-gaz h3 {
+    padding-top: 0.7rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40.5px;
+    color: #fff;
+    letter-spacing: -0.02em;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .gambar-footer-gaz img {
+    width: 50px;
+    margin-right: 1rem;
+  }
+  
+  .follow-as {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 10.1769px;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 38px;
+  }
+  
+  .social-text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 38px;
+    color: #fff;
+    letter-spacing: 10.1769px;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+  }
+  
+  .social-icon {
+    height: 26px;
+    width: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #222;
+    font-size: 0.9rem;
+    border-radius: 50%;
+    transition: 0.3rem;
+    background: #fff;
+  }
+  
+  .social-icon:hover {
+    color: pink;
+    background-color: #222;
+  }
+  
+  .panels-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .copyright-gaz {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 38px;
+    color: #fff;
+    /* letter-spacing: 10.1769px; */
+  }
+  
+  .copyright-gaz-new {
+    padding-top: 3rem;
+  }
+
+  .podium img {
+    border
+  }
+
+@media (max-width: 767px) {
+    .titel h2 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .podium img {
+        width: 180px;
+        margin-top: -3rem;
+    }
+
+
+}
+
+@media (max-width: 781px) {
+    .podium img {
+        width: 200px;
+        justify-content: center;
+        position: relative;
+    }
+}
+
+@media (max-width: 830px){
+    .podium img {
+        width: 400px;
+    }
+}

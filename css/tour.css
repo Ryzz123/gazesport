@@ -63,7 +63,7 @@ body {
     background-color: none !important;
     position: relative;
     margin-left: -60px;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 
@@ -75,22 +75,22 @@ body {
     font-weight: 400;
 }
 .gaz-tournament .fanny h5 {
-    margin-top: 2rem;
+    margin-top: 5rem;
     font-size: 36px;
     font-weight: 700;
     line-height: 26px;
 }
 
 .gaz-tournament .fanny-img img {
-    margin-top: 3rem !important;
-    margin-left: -15px;
+    margin-top: -1rem !important;
+    margin-left: 15px;
 }
 
 
 .gaz-tournament .card {
     justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    /* padding-top: 2rem; */
+    /* padding-bottom: 3rem; */
 }
 
 .gaz-tournament .fanny a {
@@ -221,7 +221,7 @@ body {
 
 .row-martis {
     border-radius: 25px 25px 0px 0px;
-    top: -8.6rem;z-index: 1;
+    top: -2.6rem;z-index: 1;
 }
 
 .row-martis::after {
@@ -420,9 +420,9 @@ width: 100%;
     }
 
     .gaz-tournament .row-fanny .card-fanny {
-        /* height: 50px; */
+        /* height: 50px !important; */
         /* margin-top: -5rem !important; */
-        /* display: none; */
+        display: none;
         position: relative;
     }
 
@@ -442,8 +442,8 @@ width: 100%;
     }
 
     .gaz-tournament .row-martis {
-        margin-top: -17rem !important;
-        height: 300px;
+        margin-top: -12rem !important;
+        height: 270px;
     }
 
     .gaz-tournament .martis-img{
@@ -466,6 +466,7 @@ width: 100%;
 
     .card-martis {
         height: 300px;
+        
     }
 
     .footer p {
@@ -476,3 +477,8 @@ width: 100%;
 }
 
 
+@media (max-width: 898px) {
+    .gaz-tournament .martis-img {
+        width: 50px !important;
+    }
+}

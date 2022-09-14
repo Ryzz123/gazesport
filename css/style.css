@@ -163,6 +163,13 @@ border: #6214A8 solid;
   padding-bottom: 10rem;
 }
 
+/* baner */
+.jumbotron h1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center !important;
+  position: absolute !important;
+}
 
 
 /* carousel */
