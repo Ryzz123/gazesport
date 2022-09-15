@@ -14,7 +14,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,div pre,a
 
 
 body {
-  min-height: 100vw;
+  /* min-height: 100vw; */
   max-width: 100%;
   font-family: 'Poppins';
   background: #5f2aaa;
@@ -131,8 +131,8 @@ h3 {
 
 /* area frame */
 .fram .season1 img{
-    border: #5f2aaa solid 2rem;
-    border-radius: 15px 15px 0px 0px;
+    border: #5f2aaa solid 1rem;
+    border-radius: 15px;
     background-color: #5f2aaa;
 }
 .fram .season2 img{

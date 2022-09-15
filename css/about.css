@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+/* reset html */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,div pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,centr,dl,dt,dd,ol,ul,li,figure,header,nav,section,article,aside,footer,figcaption,input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background: #5f2aaa;
+  background: -webkit-linear-gradient(to right, #110025, #110025);
+  background: linear-gradient(to right, #110025, #110025);
+}
+
+/* area navbar */
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-weight: 500;
+  gap: 60px;
+  font-style: normal;
+  line-height: 27px;
+}
+
+.navbar-brand {
+  color: #fff !important; 
+}
+
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 3px;
+  margin-bottom: -5px;
+}
+
+/* About us */
+.jumbotron-fluid h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 86px;
+  margin-top: 116px;
+  text-align: center;
+  /* z-index: 1; */
+}
+
+.banner img {
+  margin-top: 4rem !important;
+  width: 100%;
+}
+
+.paraf h1 {
+  margin-top: 10rem;
+  font-family: "Poppins";
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.paraf p {
+  color: #fff;
+  line-height: 31px;
+  font-size: 12;
+  font-family: "Poppins";
+}
+
+/* Footer */
+.foto img {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.logo-gaz {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding-top: 2rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 2rem ;
+}
+
+.logo-gaz img {
+  width: 50px;
+  margin-right: 0.5rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.logo-gaz h2 {
+  padding-top: 0.4rem;
+  width: 98px;
+height: 41px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 40px;
+letter-spacing: 0.01rem;
+color: #FFFFFF;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.footer {
+  justify-content: center;
+  margin-top: 3rem;
+align-items: center;
+text-align: center;
+  width: 100%;
+  background: linear-gradient(89.71deg, rgba(110, 47, 165, 0.5) 1.95%, rgba(59, 41, 153, 0.5) 99.75%);
+
+}
+.background-footer{
+width: 100%;
+background: rgb(49,1,92);
+background: linear-gradient(101deg, rgba(49,1,92,1) 5%, rgba(49,1,92,1) 56%, rgba(1,1,1,1) 90%);
+border-top-left-radius: 10rem;
+border-bottom-right-radius: 10rem;
+
+
+}
+.follow h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38.31px;
+  letter-spacing: 10px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.footer .social  {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #2F0743;
+  display: flex;
+  justify-content: center;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.social-icon {
+  height: 24px;
+  width: 24px;
+  /* border: 1px solid #222; */
+  margin: 0 0.45rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #2F0743;
+  background-color: #fff;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  transition: 0.3rem;
+}
+
+.social-icon:hover {
+  color: #222;
+  background-color: pink;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 2rem;
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 24px;
+  margin-top: 3rem;
+  margin-bottom: -2px;
+}
+
+
+
+
+
+
+/* responsive */
+@media  (max-width: 767px) {
+    .navbar-brand, .nav-link {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+      font-family: 'Poppins';
+      font-size: 13px;
+      font-weight: 500;
+      gap: 60px;
+      font-style: normal;
+      line-height: 27px;
+    }
+  
+    .nav-link:hover::after {
+      content: '';
+      display: block;
+      border-bottom: 0px solid #fff;
+      width: 30%;
+      margin: auto;
+      padding-bottom: 3px;
+      margin-bottom: -3px;
+    }
+
+    .jumbotron-fluid h1 {
+      font-size: 20px;
+      margin-bottom: -4rem;
+      margin-top: 0.1rem;
+    }
+
+    .paraf{
+      margin-top: -5rem;
+    }
+
+    .paraf h1 {
+      font-size: 18px;
+    }
+
+    .paraf p {
+      font-size: 15px;
+    }
+
+    .footer p {
+      font-size: 10px;
+  }
+
+}  
