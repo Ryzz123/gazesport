@@ -186,6 +186,31 @@ body {
   }
 
 @media (max-width: 767px) {
+  .navbar-brand, .nav-link {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-brand, .nav-link {
+    color: white !important;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    gap: 60px;
+    font-style: normal;
+    line-height: 27px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 0px solid #fff;
+    width: 30%;
+    margin: auto;
+    padding-bottom: 3px;
+    margin-bottom: -3px;
+  }
+  
     .titel h2 {
         font-size: 21px;
         text-align: center;
@@ -196,6 +221,7 @@ body {
         margin-top: -3rem;
     }
 
+    
 
 }
 
