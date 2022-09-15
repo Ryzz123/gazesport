@@ -61,6 +61,10 @@ body {
     width: 100%;
   }
 
+  .gatot img {
+    max-width: 100%;
+  }
+
   /* area footer */
 .footer-gaz {
     justify-content: center;
@@ -179,7 +183,6 @@ body {
   }
 
   .podium img {
-    border
   }
 
 @media (max-width: 767px) {
