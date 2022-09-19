@@ -452,8 +452,11 @@ border: #6214A8 solid;
   /* letter-spacing: 10.1769px; */
 }
 
+.copyright-gaz-new1 {
+  margin-top: 4rem;
+}
 .copyright-gaz-new {
-  padding-top: 3rem;
+  margin-top: -1rem;
 }
 
 .card-gaz a {

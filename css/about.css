@@ -181,6 +181,16 @@ border-bottom-right-radius: 10rem;
 
 .copyright {
   text-align: center;
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 24px;
+  margin-bottom: -2px;
+}
+.copyright1 {
+  text-align: center;
   padding-top: 2rem;
   color: #fff;
   font-family: 'Poppins';

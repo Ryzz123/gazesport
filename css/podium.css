@@ -46,7 +46,7 @@ body {
   .titel h2 {
     font-family: 'Poppins';
     font-weight: 900;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     font-size: 36px;
     letter-spacing: -2%;
     color: #fff;
@@ -179,11 +179,74 @@ body {
   }
   
   .copyright-gaz-new {
-    padding-top: 3rem;
+    margin-top: -1rem;
+  }
+  .copyright-gaz-new1 {
+
+    margin-top: 4rem;
   }
 
   .podium img {
+    font-family: 'Poppins';
+    font-weight: 900;
+    margin-bottom: 2rem;
+    font-size: 36px;
+    letter-spacing: -2%;
+    color: #fff;
+    text-shadow: 0px 8.59007px 8.59007px rgba(0, 0, 0, 0.86);
   }
+
+  .yt h2 {
+    font-family: 'Poppins';
+    font-weight:500;
+    font-size: 12px;
+    letter-spacing: -2%;
+    color: #fff;
+    text-shadow: 0px 8.59007px 8.59007px rgba(0, 0, 0, 0.86);
+    max-width: 100%;
+    margin-top: -8rem;
+  }
+  .yt {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .yt a {
+    color: red;
+    font-size: 24px;
+  }
+
+  .yt a:hover{
+    color: #5f2aaa;
+  }
+
+  .yt1 h2 {
+    font-family: 'Poppins';
+    font-weight:500;
+    font-size: 12px;
+    letter-spacing: -2%;
+    color: #fff;
+    text-shadow: 0px 8.59007px 8.59007px rgba(0, 0, 0, 0.86);
+    max-width: 100%;
+    margin-top: -6rem;
+  }
+  .yt1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .yt1 a {
+    color: red;
+    font-size: 24px;
+  }
+
+  .yt1 a:hover{
+    color: #5f2aaa;
+  }
+
+
 
 @media (max-width: 767px) {
   .navbar-brand, .nav-link {
@@ -221,7 +284,34 @@ body {
         margin-top: -3rem;
     }
 
-    
+    .yt h2 {
+    margin-top: -3.9rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: -2%;
+    color: #fff;
+    text-shadow: 0px 8.59007px 8.59007px rgba(0, 0, 0, 0.86);
+    max-width: 100%;
+    }
+    .copyright-gaz {
+      font-size: 10px;
+    }
+
+    .yt a {
+      margin-top: -4rem !important;
+    }
+
+    .yt1 h2 {
+    margin-top: -2.8rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: -2%;
+    color: #fff;
+    text-shadow: 0px 8.59007px 8.59007px rgba(0, 0, 0, 0.86);
+    max-width: 100%;
+    }
 
 }
 

@@ -260,15 +260,23 @@ h3 {
 
 .footer p {
     text-align: center;
-    padding-top: 2rem;
     color: #fff;
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 12px;
     font-style: normal;
     line-height: 24px;
-    margin-top: 3rem;
     margin-bottom: -5px;
+}
+.footer .contact {
+    text-align: center;
+    color: #fff;
+    margin-top: 4rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 24px;
 }
 
 @media  (max-width: 767px) {
