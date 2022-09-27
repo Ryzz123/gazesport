@@ -29,6 +29,142 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* 
+---------------------------------------------
+Pre-loader Style
+--------------------------------------------- 
+*/
+
+.js-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.99);
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999;
+    -webkit-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+  }
+  
+  .js-preloader.loaded {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  @-webkit-keyframes dot {
+    50% {
+        -webkit-transform: translateX(96px);
+        transform: translateX(96px);
+    }
+  }
+  
+  @keyframes dot {
+    50% {
+        -webkit-transform: translateX(96px);
+        transform: translateX(96px);
+    }
+  }
+  
+  @-webkit-keyframes dots {
+    50% {
+        -webkit-transform: translateX(-31px);
+        transform: translateX(-31px);
+    }
+  }
+  
+  @keyframes dots {
+    50% {
+        -webkit-transform: translateX(-31px);
+        transform: translateX(-31px);
+    }
+  }
+  
+  .preloader-inner {
+    position: relative;
+    width: 142px;
+    height: 40px;
+    background: transparent;
+  }
+  
+  .preloader-inner .dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 15px;
+    background: #e75e8d;
+    border-radius: 50%;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-animation: dot 2.8s infinite;
+    animation: dot 2.8s infinite;
+  }
+  
+  .preloader-inner .dots {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    margin-top: 12px;
+    margin-left: 31px;
+    -webkit-animation: dots 2.8s infinite;
+    animation: dots 2.8s infinite;
+  }
+  
+  .preloader-inner .dots span {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    background: #e75e8d;
+    border-radius: 50%;
+  }
+  
+  
+
+/* partner */
+.gaz-tournament .card .partner img {
+    margin-left: -3rem !important;
+    width: 150px !important;
+}
+
+
+
+/* cs */
+.btn-floating {
+  bottom: 25px;
+  left: 20px;
+  position: fixed;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  color: dark;
+  transition: .2s;
+  z-index: 9999;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-floating img {
+  width: 40px;
+  transition: .2s ease-in-out;
+}
+
+.btn-floating img:hover {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
 /* area navbar */
 .navbar-brand, .nav-link {
     color: white !important;
@@ -166,12 +302,6 @@ body {
 }
 
 
-.gaz-tournament .martis-img img {
-    margin-top: 5rem !important;
-    margin-left: -15px;
-}
-
-
 .gaz-tournament .card {
     justify-content: center;
     padding-top: 2rem;
@@ -208,6 +338,7 @@ body {
     border: rgba(52, 16, 94, 1) !important;
     background-color: #5F2AAA !important;
     position: relative;
+    height: 500px;
 }
 
 .gaz-tournament .row-martis {
@@ -232,7 +363,11 @@ body {
     position: absolute;
     z-index: 3;
     background: rgb(95,42,170);
-background: linear-gradient(180deg, rgba(95,42,170,0) 5%, rgba(95,42,170,0) 49%, rgba(1,1,1,1) 85%);
+    background: linear-gradient(180deg, rgba(95,42,170,0) 5%, rgba(95,42,170,0) 65%, rgba(1,1,1,1) 85%);
+}
+
+.martis {
+    margin-top: -4rem;
 }
 
 
@@ -369,6 +504,11 @@ width: 100%;
 
 @media (max-width: 767px) {
 
+    .gaz-tournament .card .partner img {
+        width: 60px !important;
+        margin-left: 0.5rem !important;
+    }
+
     .navbar-brand, .nav-link {
         text-align: center;
         align-items: center;
@@ -409,7 +549,7 @@ width: 100%;
         margin-top: 2rem !important;
         position: relative;
         max-width: 100%;
-        margin-left: -1%;
+        margin-left: -1rem;
         z-index: 2;
         /* height: 300px; */
     }
@@ -462,28 +602,38 @@ width: 100%;
         margin-top: -2rem !important;
         height: 270px;
     }
-
-    .gaz-tournament .martis-img{
-        display: none;
-    }    
+    .gaz-tournament .martis-img {
+        /* height: 50px !important; */
+        margin-top: -10rem !important;
+        margin-right: -20px;
+        display: flex;
+        position: relative;
+        justify-content: end;
+        align-items: flex-end;
+        background-color: transparent !important;
+    }
 
     .gaz-tournament .martis {
         margin-left: 20px;
         /* margin-top: -2rem; */
+        justify-content: start;
+        margin-left: -1rem;
         height: 50px;
     }
     .gaz-tournament .martis h5 {
-        font-size: 20px;
-        margin-top: -0.04rem;
+        font-size: 18px;
+        margin-top: -2rem;
     }
 
     .gaz-tournament .martis-img img{
-        display: none;
+        width: 200px;
+        background-color: transparent;
     }
 
-    .card-martis {
-        height: 300px;
-        
+    .gaz-tournament .card-martis {
+        background: transparent;
+        background-color: transparent;
+        height: 130px;
     }
 
     .footer p {
@@ -491,11 +641,4 @@ width: 100%;
     }
 
 
-}
-
-
-@media (max-width: 898px) {
-    .gaz-tournament .martis-img {
-        width: 50px !important;
-    }
 }
